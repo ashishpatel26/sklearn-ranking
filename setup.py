@@ -4,7 +4,7 @@ from setuptools import setup
 setup(name='sklearn-ranking',
       version='0.0.1',
       description='This package is used for recommendation system',
-      long_description=open('README.md').read(),
+      long_description=open('README.rst').read(),
       classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
