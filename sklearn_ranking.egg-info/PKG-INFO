@@ -1,0 +1,66 @@
+Metadata-Version: 1.1
+Name: sklearn-ranking
+Version: 0.0.1
+Summary: This package is used for recommendation system
+Home-page: http://github.com/ashishpatel26/sklearn-ranking
+Author: ashishpatel26
+Author-email: ashishpatel.ce.2011@gmail.com
+License: MIT
+Description: [![Azure](https://camo.githubusercontent.com/30c5de36c9e0d9daf0d525602d7b904a55ae06fa/68747470733a2f2f6465762e617a7572652e636f6d2f696d62616c616e6365642d6c6561726e2f696d62616c616e6365642d6c6561726e2f5f617069732f6275696c642f7374617475732f7363696b69742d6c6561726e2d636f6e747269622e696d62616c616e6365642d6c6561726e3f6272616e63684e616d653d6d6173746572)](https://dev.azure.com/imbalanced-learn/imbalanced-learn/_build) [![Travis](https://camo.githubusercontent.com/bfbd123c845655541cece8faae04790bad394a5c/68747470733a2f2f7472617669732d63692e6f72672f7363696b69742d6c6561726e2d636f6e747269622f696d62616c616e6365642d6c6561726e2e7376673f6272616e63683d6d6173746572)](https://travis-ci.org/scikit-learn-contrib/imbalanced-learn) [![Codecov](https://camo.githubusercontent.com/0a629df916288dca13b2185c19ee0479a3e6208d/68747470733a2f2f636f6465636f762e696f2f67682f7363696b69742d6c6561726e2d636f6e747269622f696d62616c616e6365642d6c6561726e2f6272616e63682f6d61737465722f67726170682f62616467652e737667) ](https://codecov.io/gh/scikit-learn-contrib/imbalanced-learn)[![CircleCI](https://camo.githubusercontent.com/ab5485169796145c57b4e89a6cc95f71cdaea3f9/68747470733a2f2f636972636c6563692e636f6d2f67682f7363696b69742d6c6561726e2d636f6e747269622f696d62616c616e6365642d6c6561726e2e7376673f7374796c653d736869656c6426636972636c652d746f6b656e3d3a636972636c652d746f6b656e)](https://circleci.com/gh/scikit-learn-contrib/imbalanced-learn/tree/master) [![PythonVersion](https://camo.githubusercontent.com/b6b8563c68b946b41ebbe87c44bac24d63f11107/68747470733a2f2f696d672e736869656c64732e696f2f707970692f707976657273696f6e732f696d62616c616e6365642d6c6561726e2e737667) ](https://img.shields.io/pypi/pyversions/imbalanced-learn.svg)[![Pypi](https://camo.githubusercontent.com/64c26484169cb5203db00183e27ec264b91e0454/68747470733a2f2f62616467652e667572792e696f2f70792f696d62616c616e6365642d6c6561726e2e737667) ](https://badge.fury.io/py/imbalanced-learn)[![Gitter](https://camo.githubusercontent.com/3281e929fd6294f8919b85a27a3638ccccd92932/68747470733a2f2f6261646765732e6769747465722e696d2f7363696b69742d6c6561726e2d636f6e747269622f696d62616c616e6365642d6c6561726e2e737667)](https://gitter.im/scikit-learn-contrib/imbalanced-learn?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+        
+        
+        
+        ## sklearn-ranking
+        
+        sklearn-ranking is a python package offering a ranking algorithm. 
+        
+        ### Installation
+        
+        ---
+        
+        #### Dependencies
+        
+        imbalanced-learn is tested to work under Python 3.6+. The dependency requirements are based on the last scikit-learn release:
+        
+        - scipy(>=0.19.1)
+        - numpy(>=1.13.3)
+        - scikit-learn(>=0.22)
+        - joblib(>=0.11)
+        - keras 2 (optional)
+        - tensorflow (optional)
+        
+        Additionally, to run the examples, you need matplotlib(>=2.0.0) and pandas(>=0.22).
+        
+        #### Installation
+        
+        imbalanced-learn is currently available on the PyPi's repository and you can install it via pip:
+        
+        ```
+        pip install -U sklearn-ranking
+        ```
+        
+        The package is release also in Anaconda Cloud platform:
+        
+        ```
+        conda install -c conda-forge sklearn-ranking
+        ```
+        
+        If you prefer, you can clone it and run the setup.py file. Use the following commands to get a copy from GitHub and install all dependencies:
+        
+        ```
+        git clone https://github.com/ashishpatel26/sklearn-ranking.git
+        cd sklearn-ranking
+        pip install .
+        ```
+        
+        Or install using pip and GitHub:
+        
+        ```
+        pip install -U git+https://github.com/ashishpatel26/sklearn-ranking.git
+        ```
+Keywords: sklearn-ranking sklearn ranking recommendation python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Topic :: Text Processing :: Linguistic

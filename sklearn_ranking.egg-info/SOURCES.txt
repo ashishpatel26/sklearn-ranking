@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+sklearn-ranking/RankSVM.py
+sklearn-ranking/__init__.py
+sklearn_ranking.egg-info/PKG-INFO
+sklearn_ranking.egg-info/SOURCES.txt
+sklearn_ranking.egg-info/dependency_links.txt
+sklearn_ranking.egg-info/not-zip-safe
+sklearn_ranking.egg-info/requires.txt
+sklearn_ranking.egg-info/top_level.txt
