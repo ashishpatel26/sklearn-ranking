@@ -1,0 +1,6 @@
+- Changelog for v1.0.0 (2020-05-20)
+--------------------------------------------------
+  * RANKSVM added with transform_pairwise.
+  * add installation guide
+  * README.md: add LGTM.com badge
+  * utils: file for support RANKSVM
